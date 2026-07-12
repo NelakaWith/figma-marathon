@@ -6,6 +6,7 @@
   --font-display: "Comfortaa", sans-serif;
   --font-body: "Poppins", sans-serif;
 
+  --color-bg-primary: #251415;
   --color-brand: #c70e1a;
   --color-active: #f19594;
   --color-inactive: #e4e4e4;
@@ -23,6 +24,8 @@
   body {
     min-height: 100vh;
     color: #ffffff;
+    font-size: 16px;
+    background-color: var(--color-bg-primary);
     font-family: var(--font-body);
     overflow-y: hidden;
     /* standard crisp text rendering reset */
